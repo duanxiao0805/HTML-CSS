@@ -1,0 +1,35 @@
+li {
+    list-style-type: none;
+}
+
+.special {
+    color: orange;
+    font-weight: bold;
+}
+
+li.special {
+    color: orange;
+    font-weight: bold;
+}
+
+li.special,
+span.special {
+    color: orange;
+    font-weight: bold;
+}
+
+li em {
+    color: rebeccapurple;
+}
+
+h1+p {
+    font-size: 200%;
+}
+
+a:link {
+    color: pink;
+}
+
+a:hover {
+    text-decoration: none;
+}
