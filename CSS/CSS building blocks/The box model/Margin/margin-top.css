@@ -1,0 +1,19 @@
+.content {
+    border: 1px solid blue;
+    margin-top: 5%;
+}
+
+.sidebox {
+    border: 1px solid blue;
+    margin-top: 10px;
+}
+
+.logo {
+    border: 1px solid blue;
+    margin-top: -5px;
+}
+
+#footer {
+    border: 1px solid blue;
+    margin-top: 1em;
+}

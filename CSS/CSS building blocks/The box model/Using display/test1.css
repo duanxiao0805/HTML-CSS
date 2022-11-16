@@ -1,0 +1,11 @@
+/* display有一个特殊的值,它在内联和块之间提供了一个中间状态. 不切换到新行,
+但希望它可以设定宽度和高度,并避免上面看到的重叠. */
+span {
+    margin: 20px;
+    padding: 20px;
+    width: 80px;
+    height: 50px;
+    background-color: lightblue;
+    border: 2px solid blue;
+    display: inline-block;
+}

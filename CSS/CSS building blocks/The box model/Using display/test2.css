@@ -1,0 +1,17 @@
+/*
+当你想要通过添加内边距使链接具有更大的命中区域时,这是很有用的.
+<a>是像<span>一样的内联元素;可以使用display:inline-block来设置内边距,让用户更容易点击链接.
+*/
+.links-list a {
+    background-color: rgb(179, 57, 81);
+    color: #fff;
+    text-decoration: none;
+    padding: 1em 2em;
+
+    display: inline-block
+}
+
+.links-list a:hover {
+    background-color: rgb(66, 28, 40);
+    color: #fff;
+}

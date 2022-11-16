@@ -1,0 +1,19 @@
+/* 通过添加 CSS 到 .alternate 类中,让它和第一个盒子宽高一样 */
+
+/* 标准盒模型 */
+.box {
+    border: 5px solid rebeccapurple;
+    background-color: lightgray;
+    padding: 40px;
+    margin: 40px;
+    width: 300px;
+    height: 150px;
+}
+
+/* IE盒模型 */
+.alternate {
+    box-sizing: border-box;
+    /* 添加的属性 */
+    width: 390px;
+    height: 240px;
+}

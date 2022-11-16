@@ -1,0 +1,26 @@
+p,
+ul {
+    border: 2px solid rebeccapurple;
+    padding: .5em;
+}
+
+.block,
+li {
+    border: 2px solid blue;
+    padding: .5em;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+.block {
+    display: block;
+}
+
+/*
+第一个p是一个段落,在CSS中加了边框.浏览器把它渲染成一个块级盒子,所以段落从新的一行开始,而且宽度占满一行.
+第二个是一个列表ul,布局属性是display:flex.将在容器中建立一个flex布局,但是每个列表是一个块级元素---像段落一样---会充满整个容器的宽度并且换行.
+下面有个块级段落,里面有两个<span>元素.正常情况下是inline,但是其中有个加了block类,设置属性display:block.
+*/

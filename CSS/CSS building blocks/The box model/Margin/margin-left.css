@@ -1,0 +1,14 @@
+.content {
+    border: 1px solid blue;
+    margin-left: 5%;
+}
+
+.sidebox {
+    border: 1px solid blue;
+    margin-left: 10px;
+}
+
+.logo {
+    border: 1px solid blue;
+    margin-left: -5px;
+}
