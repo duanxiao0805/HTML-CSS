@@ -1,0 +1,22 @@
+blockquote {
+    background-color: red;
+    border: 2px solid green;
+}
+
+/* 重设所有属性值 */
+/* .fix-this {
+    all: inherit;
+} */
+
+/* .fix-this {
+    all: initial;
+} */
+
+
+/* .fix-this {
+    all: revert;
+} */
+
+/* .fix-this {
+    all: unset;
+}  */

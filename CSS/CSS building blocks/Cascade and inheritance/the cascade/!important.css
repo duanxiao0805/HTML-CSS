@@ -1,0 +1,17 @@
+#winning {
+    background-color: red;
+    border: 1px solid black;
+}
+
+/* 第二个元素有红色背景但是没有边框。
+为什么？因为 !important 声明在第二条规则里 — 在 border: none 后面，说明即使计算优先级低这个属性也使用这个值。 */
+.better {
+    background-color: gray;
+    border: none !important;
+}
+
+p {
+    background-color: blue;
+    color: white;
+    padding: 5px;
+}
