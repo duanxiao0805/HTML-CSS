@@ -1,0 +1,7 @@
+.horizontal {
+    writing-mode: horizontal-tb;
+}
+
+.vertical {
+    writing-mode: vertical-rl;
+}
