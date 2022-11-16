@@ -1,0 +1,16 @@
+/* 
+给方框一个 5px 的黑色实心边框，圆角为 10px。
+添加一个背景图像 (使用 URL balloons.jpg)，并调整它的大小，使它能够覆盖盒子。
+给<h2>一个半透明的黑色背景颜色，并使文本为白色。
+ */
+.box {
+    border: 5px solid #000;
+    border-radius: 10px;
+    background-image: url(balloons.jpg);
+    background-size: contain;
+}
+
+h2 {
+    background-color: rgba(0, 0, 0, .5);
+    color: white;
+}

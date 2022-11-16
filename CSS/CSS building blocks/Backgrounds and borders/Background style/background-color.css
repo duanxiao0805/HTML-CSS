@@ -1,0 +1,12 @@
+.box {
+    background-color: #567895;
+}
+
+h2 {
+    background-color: black;
+    color: white;
+}
+
+span {
+    background-color: rgba(255, 255, 255, .5);
+}

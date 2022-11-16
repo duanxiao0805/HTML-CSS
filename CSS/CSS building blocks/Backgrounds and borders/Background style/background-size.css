@@ -1,0 +1,7 @@
+.box {
+    background-image: url(star.png);
+    background-repeat: no-repeat;
+    background-size: 100px 10em;
+    width: 200px;
+    height: 200px;
+}
